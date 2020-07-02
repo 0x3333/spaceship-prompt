@@ -96,6 +96,7 @@ Spaceship is a minimalistic, powerful and extremely customizable [Zsh][zsh-url] 
 - Current Julia version (`ஃ`).
 - Current Docker version and connected machine (`🐳`).
 - Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)).
+- Current Google Cloud Platform gcloud active configuration (`☁️`).
 - Current Python virtualenv.
 - Current Conda virtualenv (`🅒`).
 - Current Python version, through `python` (`🐍`) or through `pyenv` (`🐍`).
@@ -184,6 +185,14 @@ Update your `.zshrc` file with the following line:
 
 ```
 antibody bundle denysdovhan/spaceship-prompt
+```
+
+### [zinit]
+
+Add the following line to your `~/.zshrc` where you're adding your other Zsh plugins:
+
+```
+zinit light denysdovhan/spaceship-prompt
 ```
 
 ### [zgen]
@@ -322,3 +331,4 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 [xcenv]: http://xcenv.org/
 [swiftenv]: https://github.com/kylef/swiftenv
 [powerline]: https://github.com/powerline/fonts
+[zinit]: https://github.com/zdharma/zinit
